@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c2c2c; /* To-do element fon rangi */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+ul li.active {
+  background-color: #2196f350;
+}
+
+ul li span {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+button.done {
+  background-color: #4caf50; /* Yashil rang */
+  color: #fff;
+}
+
+button.update {
+  background-color: #ff9800; /* To'q sariq rang */
+  color: #fff;
+}
+
+button.delete {
+  background-color: #f44336; /* Qizil rang */
+  color: #fff;
+}

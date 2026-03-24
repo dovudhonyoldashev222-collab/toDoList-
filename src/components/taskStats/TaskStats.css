@@ -1,0 +1,54 @@
+/* TaskStats.css */
+.task-stats {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.task-stats p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.task-stats .btns {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:first-child {
+      background-color: #f44336;
+
+      &:first-child:hover {
+        background-color: #d32f2f;
+      }
+    }
+
+    &:nth-child(2) {
+      background-color: #4caf50;
+
+      &:nth-child(2):hover {
+        background-color: #45a049;
+      }
+    }
+
+    &:last-child {
+      background-color: #ff000090;
+
+      &:last-child:hover {
+        background-color: #ff0000;
+      }
+    }
+  }
+}
